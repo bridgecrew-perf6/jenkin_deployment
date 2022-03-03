@@ -11,14 +11,14 @@ pipeline{
         stage("testing the stages"){
             steps{
                 script{
-                    echo "testing the artifact"
+                    echo "testing the artifact..."
                 }
             }
         }
         stage("deploying tthe artifact"){
             steps{
                 script{
-                     echo "deployed successfully"
+                     echo "deployed successfully the first jenkin build"
                 }
             }
         }
