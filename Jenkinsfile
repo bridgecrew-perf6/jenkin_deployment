@@ -18,7 +18,7 @@ pipeline{
         stage("deploying tthe artifact"){
             steps{
                 script{
-                     echo "deployed successfully"
+                     echo "deployed successfully the first jenkin build"
                 }
             }
         }
