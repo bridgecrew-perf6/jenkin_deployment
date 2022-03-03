@@ -11,7 +11,7 @@ pipeline{
         stage("testing the stages"){
             steps{
                 script{
-                    echo "testing the artifact"
+                    echo "testing the artifact..."
                 }
             }
         }
